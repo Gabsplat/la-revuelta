@@ -1,0 +1,18 @@
+{
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "prompts": [
+    {
+      "key": "character",
+      "prompt": "Use case: stylized-concept. Asset type: transparent character sprite for a premium dark marketing website called La Revuelta. Primary request: redesign a plain white human silhouette into a memorable, beautifully rendered full-body 3D mascot with a rounded oversized smooth ivory head, tiny expressive black oval eyes, a slight playful smile, soft rounded sculptural limbs, ivory cream body, wearing a modern oversized acid-lemon yellow jacket and chunky charcoal sneakers with lemon soles. Genderless, no hair, no hat. Warm, curious and rebellious. Standing in relaxed slightly asymmetrical pose, one hand lifted slightly as if an idea just appeared, feet grounded. Elegant collectible vinyl designer toy aesthetic, sophisticated not childish, subtle tactile matte ceramic and rubber, sharp high-quality studio render, subtle lemon rim light on the right. Front three-quarter view, entire character head to shoes fully visible centered, 10 percent padding. Genuine transparent alpha background, no scenery, no floor plane, no cast ground shadow, no other objects, no text, no watermark. Palette only ivory #f4f3e8, acid yellow #f1ff5b, charcoal #171914. Must read clearly at 200 px tall on near-black website."
+    },
+    {
+      "key": "idea",
+      "prompt": "Use case: stylized-concept. Asset type: transparent floating orbital icon for premium near-black and acid-yellow marketing website La Revuelta. A single beautifully rendered 3D lightbulb, playful designer collectible aesthetic, rounded inflated pear-shaped frosted lemon-yellow glass, softly glowing interior with elegant charcoal filament, chunky stepped charcoal socket, tiny ivory highlights, small yellow sparks immediately around bulb optional. Matching a matte ivory designer toy mascot with acid-yellow jacket. Front three-quarter view, slight tilt, isolated object centered fully visible with generous 15 percent padding. Fine studio quality, sculptural clean silhouette, tactile rubber and frosted glass materials. Only acid yellow #f1ff5b, warm ivory #f4f3e8, charcoal #171914. Genuine transparent alpha background. No background, no floor, no shadow rectangle, no typography, no watermark. One single bulb only."
+    },
+    {
+      "key": "business",
+      "prompt": "Use case: stylized-concept. Asset type: transparent floating business icon for premium dark marketing website La Revuelta, matching an ivory collectible vinyl mascot with lemon-yellow jacket and chunky black sneakers. A single charming miniature 3D storefront with rounded ivory walls, acid-lemon yellow and charcoal striped curved awning, one welcoming charcoal door, two illuminated lemon windows, small rounded shop sign with no text, simple slightly puffy rounded proportions. Matte ceramic and rubber material, premium sculptural collectible designer toy rendering. Front three-quarter isometric view, centered entire storefront fully visible, generous 15 percent transparent margin. Studio lighting with subtle lemon rim light. Colors only warm ivory #f4f3e8, acid yellow #f1ff5b, charcoal #171914. Genuine transparent alpha background, no scene, no floor plane, no cast ground shadow, no text, no letters, no watermark. One single storefront only."
+    }
+  ]
+}

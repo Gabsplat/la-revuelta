@@ -1,0 +1,82 @@
+{
+  "text": "Nuestra\nInspiración\nProceso de\ntransformación\nFilosofía\n\n🤝\n\nClientes\n\nDesde un diagnóstico profundo hasta la ejecución de estrategias innovadoras, nuestros clientes alcanzaron sus objetivos y superaron sus expectativas. Ahora es tu turno.\n\n© 2025 La Revuelta. Todos los derechos reservados.\nNuestra inspiración\nProceso de transformación\nFilosofía\nOrgullosamente diseñado y desarrollado por\nAftercode.",
+  "links": [
+    {
+      "text": "",
+      "href": "/"
+    },
+    {
+      "text": "Nuestra  Inspiración",
+      "href": "/que-nos-inspira"
+    },
+    {
+      "text": "Proceso de  transformación",
+      "href": "/proceso-transformacion"
+    },
+    {
+      "text": "Filosofía",
+      "href": "/nuestra-filosofia"
+    },
+    {
+      "text": "",
+      "href": "https://wa.me/num"
+    },
+    {
+      "text": "Nuestra inspiración",
+      "href": "/que-nos-inspira"
+    },
+    {
+      "text": "Proceso de transformación",
+      "href": "/proceso-transformacion"
+    },
+    {
+      "text": "Filosofía",
+      "href": "/nuestra-filosofia"
+    },
+    {
+      "text": "Aftercode.",
+      "href": "https://www.aftercode.dev/"
+    }
+  ],
+  "images": [
+    {
+      "src": "/logo.png",
+      "alt": "Logo"
+    },
+    {
+      "src": "/images/whatsapp.svg",
+      "alt": ""
+    }
+  ],
+  "backgrounds": [
+    "url(\"https://www.larevueltaconsultora.com/hero/clientes.webp\")"
+  ],
+  "fonts": [
+    {
+      "tag": "P",
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "30px"
+    },
+    {
+      "tag": "H2",
+      "font": "Fustat, sans-serif",
+      "size": "48px"
+    },
+    {
+      "tag": "P",
+      "font": "Geist, sans-serif",
+      "size": "20px"
+    }
+  ],
+  "styles": [
+    "https://www.larevueltaconsultora.com/_next/static/css/d85581fb3a55dff9.css"
+  ],
+  "scripts": [
+    "https://www.larevueltaconsultora.com/_next/static/chunks/4bd1b696-8cdb96b86ab593d4.js",
+    "https://www.larevueltaconsultora.com/_next/static/chunks/517-23aedf9876140770.js",
+    "https://www.larevueltaconsultora.com/_next/static/chunks/main-app-f716d1d8434d3035.js",
+    "https://www.larevueltaconsultora.com/_next/static/chunks/polyfills-42372ed130431b0a.js",
+    "https://www.larevueltaconsultora.com/_next/static/chunks/webpack-6b42bfdd85119300.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-D7L24GT4SQ"
+  ]
+}

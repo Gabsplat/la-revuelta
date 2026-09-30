@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+*.tsbuildinfo
+test-results/
+playwright-report/
+
+.sites-runtime/
+artifacts/
+reference/*.png
+*.tar.gz

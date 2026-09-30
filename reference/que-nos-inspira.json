@@ -1,0 +1,140 @@
+{
+  "text": "Nuestra\nInspiración\nProceso de\ntransformación\nFilosofía\n\n💡\n\nQué nos inspira\n\nDesde los rebeldes del deporte hasta los visionarios de la música y el arte, nos inspiran quienes rompen moldes, cambian las reglas y transforman lo cotidiano en algo extraordinario.\n\nNike\n\nDe ser los nuevos en la cancha a cambiar las reglas del juego. Apostaron por los rebeldes del deporte y llevaron su estilo a las calles.\n\nThe Beatles\n\nNo solo hicieron música, crearon un movimiento global. Con la \"Invasión Británica\", rompieron fronteras y marcaron la historia del rock.\n\nYSY y Duki\n\nTransformaron la improvisación de barrio en un fenómeno masivo. Desde El Quinto Escalón, le dieron ritmo y voz a toda una generación.\n\n© 2025 La Revuelta. Todos los derechos reservados.\nNuestra inspiración\nProceso de transformación\nFilosofía\nOrgullosamente diseñado y desarrollado por\nAftercode.",
+  "links": [
+    {
+      "text": "",
+      "href": "/"
+    },
+    {
+      "text": "Nuestra  Inspiración",
+      "href": "/que-nos-inspira"
+    },
+    {
+      "text": "Proceso de  transformación",
+      "href": "/proceso-transformacion"
+    },
+    {
+      "text": "Filosofía",
+      "href": "/nuestra-filosofia"
+    },
+    {
+      "text": "NikeDe ser los nuevos en la cancha a cambiar las reglas del juego. Apostaron por los rebeldes del deporte y llevaron su estilo a las calles.",
+      "href": "/que-nos-inspira/nike"
+    },
+    {
+      "text": "The BeatlesNo solo hicieron música, crearon un movimiento global. Con la \"Invasión Británica\", rompieron fronteras y marcaron la historia del rock.",
+      "href": "/que-nos-inspira/the-beatles"
+    },
+    {
+      "text": "YSY y DukiTransformaron la improvisación de barrio en un fenómeno masivo. Desde El Quinto Escalón, le dieron ritmo y voz a toda una generación.",
+      "href": "/que-nos-inspira/ysy-y-duki"
+    },
+    {
+      "text": "",
+      "href": "https://wa.me/num"
+    },
+    {
+      "text": "Nuestra inspiración",
+      "href": "/que-nos-inspira"
+    },
+    {
+      "text": "Proceso de transformación",
+      "href": "/proceso-transformacion"
+    },
+    {
+      "text": "Filosofía",
+      "href": "/nuestra-filosofia"
+    },
+    {
+      "text": "Aftercode.",
+      "href": "https://www.aftercode.dev/"
+    }
+  ],
+  "images": [
+    {
+      "src": "/logo.png",
+      "alt": "Logo"
+    },
+    {
+      "src": "/images/que-nos-inspira/phil_knight.webp",
+      "alt": "Background"
+    },
+    {
+      "src": "/images/que-nos-inspira/beatles-fondo.webp",
+      "alt": "Background"
+    },
+    {
+      "src": "/images/que-nos-inspira/vinyl.webp",
+      "alt": "The Beatles"
+    },
+    {
+      "src": "/images/que-nos-inspira/dukiysy.webp",
+      "alt": "Background"
+    },
+    {
+      "src": "/images/whatsapp.svg",
+      "alt": ""
+    }
+  ],
+  "backgrounds": [
+    "url(\"https://www.larevueltaconsultora.com/hero/inspiracion.webp\")"
+  ],
+  "fonts": [
+    {
+      "tag": "P",
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "30px"
+    },
+    {
+      "tag": "H2",
+      "font": "Fustat, sans-serif",
+      "size": "48px"
+    },
+    {
+      "tag": "P",
+      "font": "Geist, sans-serif",
+      "size": "20px"
+    },
+    {
+      "tag": "P",
+      "font": "Fustat, sans-serif",
+      "size": "36px"
+    },
+    {
+      "tag": "P",
+      "font": "Geist, sans-serif",
+      "size": "18px"
+    },
+    {
+      "tag": "P",
+      "font": "Fustat, sans-serif",
+      "size": "36px"
+    },
+    {
+      "tag": "P",
+      "font": "Geist, sans-serif",
+      "size": "18px"
+    },
+    {
+      "tag": "P",
+      "font": "Fustat, sans-serif",
+      "size": "36px"
+    }
+  ],
+  "styles": [
+    "https://www.larevueltaconsultora.com/_next/static/css/d85581fb3a55dff9.css"
+  ],
+  "scripts": [
+    "https://www.larevueltaconsultora.com/_next/static/chunks/4bd1b696-8cdb96b86ab593d4.js",
+    "https://www.larevueltaconsultora.com/_next/static/chunks/517-23aedf9876140770.js",
+    "https://www.larevueltaconsultora.com/_next/static/chunks/main-app-f716d1d8434d3035.js",
+    "https://www.larevueltaconsultora.com/_next/static/chunks/c15bf2b0-f987a96bf025b29d.js",
+    "https://www.larevueltaconsultora.com/_next/static/chunks/50-7961351965293be6.js",
+    "https://www.larevueltaconsultora.com/_next/static/chunks/173-c43821161467012f.js",
+    "https://www.larevueltaconsultora.com/_next/static/chunks/app/layout-98e4492a731205a0.js",
+    "https://www.larevueltaconsultora.com/_next/static/chunks/app/not-found-fb36c2e1425cdd65.js",
+    "https://www.larevueltaconsultora.com/_next/static/chunks/polyfills-42372ed130431b0a.js",
+    "https://www.larevueltaconsultora.com/_next/static/chunks/webpack-6b42bfdd85119300.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-D7L24GT4SQ"
+  ]
+}

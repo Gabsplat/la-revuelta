@@ -1,0 +1,214 @@
+[
+  {
+    "blocks": [
+      {
+        "tag": "P",
+        "text": "Etapa 1 Analítica Interna"
+      },
+      {
+        "tag": "LI",
+        "text": "Desarrollo de tableros con métricas claves del negocio: Power BI o Looker Studio en función de preferencia."
+      },
+      {
+        "tag": "LI",
+        "text": "Desarrollo de informe de análisis de mejoras, puntos ineficientes, variables críticas a trabajar."
+      },
+      {
+        "tag": "LI",
+        "text": "Clusterización de embudo por canales, para determinar eficiencia de cada canal y aporte real al negocio."
+      },
+      {
+        "tag": "LI",
+        "text": "Análisis de procesos actuales, funcionamiento de tareas, intervención de diferentes áreas."
+      },
+      {
+        "tag": "LI",
+        "text": "Análisis de la utilización y maximización de valor de cada canal: ¿Se está aprovechando la base de datos? ¿Existe un flujo de abordaje completo de leads? ¿Se conoce el motivo de abandono en el proceso comercial?"
+      },
+      {
+        "tag": "P",
+        "text": "Entregables"
+      },
+      {
+        "tag": "LI",
+        "text": "Informe completo del estado actual del funcionamiento de la empresa."
+      },
+      {
+        "tag": "LI",
+        "text": "Tablero interactivo con datos actualizados para análisis y seguimiento continuo."
+      },
+      {
+        "tag": "LI",
+        "text": "Conclusiones y recomendaciones estratégicas basadas en la interpretación de los datos clave."
+      },
+      {
+        "tag": "LI",
+        "text": "Análisis de ineficiencias y puntos débiles con propuestas de mejora."
+      },
+      {
+        "tag": "LI",
+        "text": "Identificación de oportunidades clave para potenciar el negocio."
+      },
+      {
+        "tag": "P",
+        "text": "En esta etapa clave nos obsesionamos con que obtengas un informe completo del estado actual de tu empresa, para que comprendas de una forma simple cuáles son las fortalezas actuales de la organización y los puntos críticos en los que hay que hacer foco de cara a la escalabilidad del negocio."
+      },
+      {
+        "tag": "P",
+        "text": "Etapa 2 Analítica Externa"
+      },
+      {
+        "tag": "LI",
+        "text": "Planteo estratégico personalizado de la investigación según las necesidades de la empresa."
+      },
+      {
+        "tag": "LI",
+        "text": "Definición de objetivos, hipótesis a validar y ventajas esperadas de la información obtenida."
+      },
+      {
+        "tag": "LI",
+        "text": "Desarrollo completo del proceso de investigación con trazabilidad en cada etapa clave."
+      },
+      {
+        "tag": "LI",
+        "text": "Análisis de mercado: percepción de la marca, productos, competencia y cuota de mercado."
+      },
+      {
+        "tag": "LI",
+        "text": "Segmentación del mercado por zonas o categorías según su potencial."
+      },
+      {
+        "tag": "LI",
+        "text": "Identificación de nuevos insights y puntos clave adicionales durante el proceso."
+      },
+      {
+        "tag": "P",
+        "text": "Entregables"
+      },
+      {
+        "tag": "LI",
+        "text": "Informe completo con la información recopilada, organizada para fácil uso y presentación."
+      },
+      {
+        "tag": "LI",
+        "text": "Análisis e interpretación de datos por parte de nuestro equipo experto, facilitando la comprensión de los resultados y apoyando la toma de decisiones estratégicas."
+      },
+      {
+        "tag": "P",
+        "text": "En esta etapa clave nos obsesionamos con que obtengas un informe de investigación completo que te muestre insights del público en el que apuntas tu propuesta de valor, tendencias del sector y del mercado donde participas, y demás información clave que sirva para que desarrolles un diagnóstico general del mundo en el que está conviviendo tu empresa."
+      }
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "tag": "P",
+        "text": "Desarrollo de Plan de acción inmediato"
+      },
+      {
+        "tag": "P",
+        "text": "Plan táctico de crecimiento para potenciar tus resultados hoy con tu estructura actual."
+      },
+      {
+        "tag": "P",
+        "text": "Para esta etapa contamos con una gran oportunidad: La etapa de Analítica Interna y Externa del paso 1."
+      },
+      {
+        "tag": "LI",
+        "text": "Formulación de carriles estratégicos para estabilizar o potenciar objetivos críticos según el diagnóstico inicial."
+      },
+      {
+        "tag": "LI",
+        "text": "Desarrollo de una planilla de seguimiento en tiempo real del estado de ejecución del plan."
+      },
+      {
+        "tag": "LI",
+        "text": "Creación de un Gantt calendarizado para establecer un roadmap claro y previsible."
+      },
+      {
+        "tag": "LI",
+        "text": "Definición y seguimiento de métricas clave para medir el impacto de cada acción y ajustar el plan según los resultados."
+      },
+      {
+        "tag": "LI",
+        "text": "Generación de reportes mensuales con tareas ejecutadas, próximas acciones y comparación de resultados vs lo planificado."
+      },
+      {
+        "tag": "P",
+        "text": "Entregables"
+      },
+      {
+        "tag": "LI",
+        "text": "Objetivos estructurados en carriles y calendarizados para una ejecución planificada y coordinada."
+      },
+      {
+        "tag": "LI",
+        "text": "Medición de acciones mediante métricas predefinidas para evaluar el progreso y resultados."
+      },
+      {
+        "tag": "LI",
+        "text": "Interpretación de resultados mensuales con conclusiones estratégicas clave para la toma de decisiones."
+      },
+      {
+        "tag": "LI",
+        "text": "Análisis continuo para ajustar el plan, incorporando nuevas acciones según la evolución y resultados"
+      },
+      {
+        "tag": "P",
+        "text": "En esta etapa clave nos apasiona desarrollar un Plan Estratégico a corto plazo a medida de las necesidades detectadas en la etapa 1: Analítica para potenciar y generar un shock de crecimiento inmediato en la estructura de la empresa, para facilitar al negocio el logro y la potenciación de los objetivos planteados."
+      },
+      {
+        "tag": "P",
+        "text": "Nos obsesiona y apasiona centrarnos en la propuesta de valor de la empresa, por lo que todos los procesos y herramientas que aplicamos tienen como propósito explotar eso que hace distinta a tu empresa acercándola a su público ideal."
+      }
+    ]
+  },
+  {
+    "blocks": [
+      {
+        "tag": "P",
+        "text": "Redefine tus necesidades estratégicas y enfrenta nuevos desafíos con visión de futuro"
+      },
+      {
+        "tag": "LI",
+        "text": "Definición de nuevos objetivos de crecimiento y expansión de la marca a largo plazo"
+      },
+      {
+        "tag": "LI",
+        "text": "Análisis de nuevos segmentos a los que abordar a través de la propuesta de valor de la empresa"
+      },
+      {
+        "tag": "LI",
+        "text": "Definición de lanzamiento de nuevos productos y servicios junto con estrategias de penetración personalizadas y coordinadas"
+      },
+      {
+        "tag": "LI",
+        "text": "Investigaciones centradas en la obtención de información específica para descubrir y aprovechar nuevas oportunidades"
+      },
+      {
+        "tag": "LI",
+        "text": "Rediseño del branding de la empresa para asegurar que esté a la altura de una transformación profunda y sostenible"
+      },
+      {
+        "tag": "P",
+        "text": "Entregables"
+      },
+      {
+        "tag": "LI",
+        "text": "Diseño de una hoja de ruta a largo plazo con planes estratégicos integrales, orientados a afrontar nuevos desafíos y alcanzar objetivos ambiciosos."
+      },
+      {
+        "tag": "P",
+        "text": "Esta etapa la materializamos como un espacio donde puedas plasmar y analizar nuevas ideas y sueños que tenés con tu empresa, para que se puedan sumar al funcionamiento probado que el negocio ya tiene y permitan extender el propósito de la organización a nuevos países, mercados, segmentos, a través del potenciamiento de los productos y servicios actuales o del lanzamiento de nuevos."
+      },
+      {
+        "tag": "P",
+        "text": "Esta etapa nos apasiona por el alto grado de diversión que tiene y por la continua experimentación que se vive en búsqueda de ir consolidando la mejor versión posible de la empresa bajo los valores que ésta tenga establecidos."
+      },
+      {
+        "tag": "P",
+        "text": "El único límite acá es la creatividad y la ambición por hacer de los usuarios y del mundo, a través de la propuesta de valor de tu empresa, un lugar mejor."
+      }
+    ]
+  }
+]
