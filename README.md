@@ -2,7 +2,13 @@
 
 Rediseño de https://www.larevueltaconsultora.com/ con React, TypeScript, Vite y anime.js. Conserva los textos, las imágenes y los colores del original (negro y amarillo `#fcf532`), con una dirección visual propia: tipografía de afiche, secciones que alternan negro, papel y amarillo, cintas, sellos giratorios y tarjetas apiladas.
 
-## Vista previa
+## Publicado
+
+https://gabsplat.github.io/la-revuelta/
+
+Cada push a `main` lo compila y despliega en GitHub Pages con `.github/workflows/pages.yml`. El build usa `BASE_PATH=/la-revuelta/` y copia `index.html` a `404.html` para que las subpáginas abran directo.
+
+## Vista previa local
 
 https://omarchy.tailff08b5.ts.net:24443/
 
