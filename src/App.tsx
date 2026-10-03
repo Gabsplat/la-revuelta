@@ -1,16 +1,57 @@
-import { useEffect, useState } from 'react';
-import { Routes, Route, useLocation, Link } from 'react-router-dom';
-import { ArrowUpRight, Sparkle } from 'lucide-react';
-import { Header, Footer, CTA, ContactDialog } from './components/Layout';
-import { HomeHero, PageHero } from './components/Hero';
-import { ProcessPreview, FullProcess } from './components/Process';
-import { ClientCards, CaseStudy } from './components/Clients';
-import Story from './components/Story';
-import { usePageMotion } from './components/Motion';
-function Perspective(){return <section id="enfoque" className="perspective section-pad"><div className="perspective-top" data-reveal><span className="eyebrow">01 / NUESTRA FORMA DE VER</span><span className="perspective-index">ENFOQUE ↗ VISIÓN</span></div><div className="perspective-body"><div data-reveal><h2>Nos obsesionamos<br/>con entender<br/><span className="highlight-label">tu negocio.<Sparkle/></span></h2><p>Comprendemos tu sueño. A través del marketing buscamos que tu empresa aporte cada vez más valor al mundo.</p><Link to="/nuestra-filosofia" className="text-link">Las ideas que nos mueven <ArrowUpRight size={18}/></Link></div><div className="world-scene" data-reveal><div className="world-orbit"/><div className="world-orbit orbit-two"/><img className="world" src="/images/comprendemos/world.webp" alt="Un mundo en el que las empresas aportan más valor" loading="lazy"/><img className="world-cloud cloud-one" src="/images/comprendemos/white_cloud.webp" alt="" loading="lazy"/><img className="world-cloud cloud-two" src="/images/comprendemos/white_cloud_2.webp" alt="" loading="lazy"/><span className="world-label"><span className="status-dot"/> COMPRENDEMOS TU SUEÑO</span><span className="world-coordinate">35° / UNA NUEVA PERSPECTIVA</span></div></div></section>}
-const inspirations=[{name:'Nike',category:'ROMPER LAS REGLAS',image:'phil_knight',text:'De ser los nuevos en la cancha a cambiar las reglas del juego. Apostaron por los rebeldes del deporte y llevaron su estilo a las calles.',detail:'Nos inspira esa convicción de encontrar un lugar propio y apostar por quienes ven el juego de otra manera.'},{name:'The Beatles',category:'CREAR UN MOVIMIENTO',image:'beatles-fondo',text:'No solo hicieron música, crearon un movimiento global. Con la "Invasión Británica", rompieron fronteras y marcaron la historia del rock.',detail:'Una propuesta de valor clara puede conectar con millones de personas y cambiar una cultura.'},{name:'YSY y Duki',category:'HACER HISTORIA DESDE EL BARRIO',image:'dukiysy',text:'Transformaron la improvisación de barrio en un fenómeno masivo. Desde El Quinto Escalón, le dieron ritmo y voz a toda una generación.',detail:'El talento, la comunidad y una visión compartida pueden convertir una idea en algo mucho más grande.'}];
-function Inspiration(){const [selected,setSelected]=useState<number|null>(null);const location=useLocation();useEffect(()=>setSelected(null),[location]);return <><PageHero number="01 / INSPIRACIÓN" title="Los que rompen" accent="el molde." description="Desde los rebeldes del deporte hasta los visionarios de la música y el arte, nos inspiran quienes rompen moldes, cambian las reglas y transforman lo cotidiano en algo extraordinario." image="/hero/inspiracion.webp"/><section id="contenido" className="inspiration-section section-pad"><div className="inspiration-intro" data-reveal><span className="eyebrow">QUÉ NOS INSPIRA</span><p>Los cambios empiezan<br/>con alguien que se anima.</p></div><div className="inspiration-grid">{inspirations.map((c,i)=><article className={`inspiration-card ${selected===i?'expanded':''}`} key={c.name} data-reveal><img className="inspiration-bg" src={`/images/que-nos-inspira/${c.image}.webp`} alt={c.name==='Nike'?'Phil Knight con un calzado Nike':c.name==='The Beatles'?'Arte de The Beatles':'YSY A y Duki en El Quinto Escalón'}/>{i===1&&<img className="vinyl" src="/images/que-nos-inspira/vinyl.webp" alt="Disco de vinilo The Beatles"/>}<div className="inspiration-content"><span className="eyebrow">0{i+1} / {c.category}</span><h2>{c.name}</h2><p>{c.text}</p>{selected===i&&<p className="inspiration-detail">{c.detail}</p>}</div><button className="inspiration-open" onClick={()=>setSelected(selected===i?null:i)} aria-expanded={selected===i} aria-label={`${selected===i?'Cerrar':'Conocer más sobre'} ${c.name}`}><ArrowUpRight/></button></article>)}</div><div className="inspiration-manifesto" data-reveal><Sparkle/><h2>Las buenas ideas<br/>merecen <em>una revuelta.</em></h2><Link to="/proceso-transformacion" className="text-link">Así las hacemos crecer <ArrowUpRight size={18}/></Link></div></section></>}
-const descriptions={process:'Conocé cómo llevamos a tu empresa al siguiente nivel. Desde un diagnóstico profundo hasta la creación de estrategias innovadoras, te acompañamos en cada etapa para alcanzar el éxito y más allá.',clients:'Desde un diagnóstico profundo hasta la ejecución de estrategias innovadoras, nuestros clientes alcanzaron sus objetivos y superaron sus expectativas. Ahora es tu turno.'};
-function Philosophy(){return <><PageHero number="03 / FILOSOFÍA" title="Más valor." accent="Un mundo mejor." description="Conocé nuestra filosofía y los valores que nos impulsan a ofrecer lo mejor." image="/hero/filosofia.webp"/><div id="contenido"><Story/></div><section className="philosophy-end section-pad" data-reveal><span className="eyebrow">EL CÍRCULO VIRTUOSO</span><h2>Pero lo verdaderamente gratificante<br/>es que este sistema es<br/><em>infinito y exponencial.</em></h2><span className="philosophy-infinity">∞</span></section></>}
-function App(){const location=useLocation();const [contact,setContact]=useState(false);usePageMotion(location.pathname);useEffect(()=>{setContact(false);const titles:Record<string,string>={'/':'Rompemos estructuras','/que-nos-inspira':'Qué nos inspira','/proceso-transformacion':'Proceso de transformación','/nuestra-filosofia':'Nuestra filosofía','/clientes':'Clientes','/clientes/ipc':'IPC Pools','/clientes/nutriterra':'Nutriterra'};document.title=`La Revuelta · ${titles[location.pathname]??'Página no encontrada'}`;if(location.hash){const timeout=setTimeout(()=>document.querySelector(location.hash)?.scrollIntoView({behavior:'instant'}),100);return()=>clearTimeout(timeout)}else window.scrollTo({top:0,behavior:'instant'})},[location]);const openContact=()=>setContact(true);return <><Header contact={openContact}/><main id="main" key={location.pathname}><Routes><Route path="/" element={<><HomeHero contact={openContact}/><div className="brand-ribbon"><span>MENOS DE LO MISMO.</span><Sparkle/><span>MÁS DE LO QUE IMPORTA.</span><Sparkle/><span>HAGAMOS UNA REVUELTA.</span><Sparkle/></div><Perspective/><ProcessPreview/><Story/><ClientCards home/></>}/><Route path="/que-nos-inspira" element={<Inspiration/>}/><Route path="/proceso-transformacion" element={<><PageHero number="02 / TRANSFORMACIÓN" title="Entender. Potenciar." accent="Ir más allá." description={descriptions.process} image="/hero/transformacion.webp"/><FullProcess/></>}/><Route path="/nuestra-filosofia" element={<Philosophy/>}/><Route path="/clientes" element={<><PageHero number="04 / CLIENTES" title="Cada empresa." accent="Una revuelta." description={descriptions.clients} image="/hero/clientes.webp"/><ClientCards/></>}/><Route path="/clientes/ipc" element={<CaseStudy slug="ipc"/>}/><Route path="/clientes/nutriterra" element={<CaseStudy slug="nutriterra"/>}/><Route path="*" element={<section className="not-found section-pad"><span className="eyebrow">404 / POR ACÁ TODAVÍA NO</span><h1>Volvamos a<br/><em>dar la vuelta.</em></h1><Link to="/" className="button-primary">Ir al inicio <ArrowUpRight/></Link></section>}/></Routes><CTA contact={openContact}/></main><Footer contact={openContact}/><ContactDialog open={contact} close={()=>setContact(false)}/></>}
-export default App;
+import { useEffect, useRef, useState } from 'react';
+import { Route, Routes, useLocation } from 'react-router-dom';
+import { animate } from 'animejs';
+import { CTA, ContactDialog, Footer, Header } from './components/Chrome';
+import Home from './components/Home';
+import { CaseStudy, ClientsPage, Inspiration, NotFound, Philosophy, ProcessPage } from './components/Pages';
+import { titles } from './content';
+import { reducedMotion, usePageMotion } from './lib/motion';
+
+export default function App() {
+  const location = useLocation();
+  const [contact, setContact] = useState(false);
+  const curtain = useRef<HTMLDivElement>(null);
+  const openContact = () => setContact(true);
+  usePageMotion(location.pathname);
+
+  useEffect(() => {
+    setContact(false);
+    document.title = `La Revuelta · ${titles[location.pathname] ?? 'Página no encontrada'}`;
+    if (location.hash) {
+      const timeout = setTimeout(() => document.querySelector(location.hash)?.scrollIntoView({ behavior: 'instant' }), 100);
+      return () => clearTimeout(timeout);
+    }
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  }, [location]);
+
+  // Cortina amarilla que se levanta en cada cambio de página.
+  useEffect(() => {
+    if (reducedMotion()) return;
+    const wipe = animate(curtain.current!, { y: ['0%', '-101%'], duration: 900, ease: 'inOutExpo' });
+    return () => {
+      wipe.revert();
+    };
+  }, [location.pathname]);
+
+  return (
+    <>
+      <Header contact={openContact} />
+      <main id="main" key={location.pathname}>
+        <Routes>
+          <Route path="/" element={<Home contact={openContact} />} />
+          <Route path="/que-nos-inspira" element={<Inspiration />} />
+          <Route path="/proceso-transformacion" element={<ProcessPage />} />
+          <Route path="/nuestra-filosofia" element={<Philosophy />} />
+          <Route path="/clientes" element={<ClientsPage />} />
+          <Route path="/clientes/ipc" element={<CaseStudy slug="ipc" />} />
+          <Route path="/clientes/nutriterra" element={<CaseStudy slug="nutriterra" />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        <CTA contact={openContact} />
+      </main>
+      <Footer contact={openContact} />
+      <ContactDialog open={contact} close={() => setContact(false)} />
+      <div className="curtain" ref={curtain} aria-hidden="true" />
+    </>
+  );
+}
